@@ -2,4 +2,18 @@ GET http://localhost:3000/users
 
 
 ###
-GET http://localhost:3000/users/12
+
+
+GET http://localhost:3000/users/614deb7c8eeb74daa2ebad3
+
+
+###
+
+POST http://localhost:3000/users                                                        
+Content-Type: application/json
+
+{
+     "company": "Test Company",
+    "name": "mogau"
+   
+}

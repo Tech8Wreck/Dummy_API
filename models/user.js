@@ -11,7 +11,7 @@ company:{
 type: String,
 required: true
 },
-jointDate:{
+joinDate:{
     type: Date,
     required: true,
     default: Date.now
